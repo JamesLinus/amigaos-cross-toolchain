@@ -5,7 +5,7 @@
        m32r-*-*)		    fmt=elf bfd_gas=yes ;;
  
 +      m68*-*-amigaoshunk)   fmt=amigahunk em=amiga bfd_gas=yes ;;
-+      m68*-*-amigaos*)      fmt=aout em=amiga ;;
++      m68*-*-amigaos*)      fmt=amigahunk em=amiga bfd_gas=yes ;;
        m68k-*-vxworks* | m68k-ericsson-ose | m68k-*-sunos*)
  			    fmt=aout em=sun3 ;;
        m68k-motorola-sysv*)  fmt=coff em=delta ;;
